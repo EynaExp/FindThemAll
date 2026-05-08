@@ -56,10 +56,19 @@ TELEGRAM_BOT_TOKEN = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
 CHAT_ID = '987654321'   # your numeric chat ID or @channelusername
 ```
 
-### 4. Run the Server
+### 4. Clone & Run the Server
+
+Clone the repository:
 
 ```bash
-python server.py
+git clone https://github.com/EynaExp/FindThemAll
+cd FindThemAll
+```
+
+To start the server
+
+```bash
+python FindThemAll.py
 ```
 
 The server will start on port **5000**.  
