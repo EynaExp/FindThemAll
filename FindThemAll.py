@@ -156,6 +156,8 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
 def run(server_class=http.server.HTTPServer, handler_class=RequestHandler):
     server_address = ('', 5000)
     httpd = server_class(server_address, handler_class)
+    print('Welcome to FindThemAll by EynaExp')
+    print('# https://github.com/EynaExp/FindThemAll')
     print('Starting server at http://localhost:5000')
     httpd.serve_forever()
 
