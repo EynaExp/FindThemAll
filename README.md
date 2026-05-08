@@ -1,9 +1,6 @@
-# FindThemAll
-A tracker for phishing simulation that retrieves target information by a link.
 
 
-
-# 🎣 PhishTrack – Lightweight Phishing Simulation Tracker
+# FindThemAll – Lightweight Phishing Simulation Tracker
 
 A minimal, self-contained HTTP tracking tool designed for **authorized security awareness campaigns** and **phishing simulations**.  
 When a target clicks your tracked link, detailed browser/environment information is silently collected and dispatched to your Telegram chat in real time.
